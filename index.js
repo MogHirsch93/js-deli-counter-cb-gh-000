@@ -27,5 +27,5 @@ function currentLine(katzDeliLine, customer){
     currentLine = currentLine + `, ${i+1}. ${katzDeliLine[i]}`
     }
   }
-  return currentLine;
+  return currentLineString;
 }
