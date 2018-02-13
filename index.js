@@ -20,6 +20,11 @@ function currentLine(katzDeliLine, customer){
   if(katzDeliLine.length = 0){
     return "The line is currently empty.";
   } for(let i = 0; i < katzDeliLine.length; i++){
-    currentLine = currentLine + `${i+1}. ${katzDeliLine[i]}, `
+    if(i===0){
+    currentLine = currentLine + `${i+1}. ${katzDeliLine[i]}`
+  }else{
+    currentLine = currentLine + `, ${i+1}. ${katzDeliLine[i]}`
+    }
   }
+  return currentLine;
 }
