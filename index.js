@@ -7,7 +7,7 @@ function takeANumber(katzDeliLine, newCustomer){
 
 function nowServing(katzDeliLine){
   if(katzDeliLine.length > 1){
-  let firstInQueue = katzDeliLine[0]
+  let firstInQueue = katzDeliLine[0];
   katzDeliLine.shift();
   return `Currently serving ${firstInQueue}.`
   } else{
