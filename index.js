@@ -7,5 +7,5 @@ function takeANumber(katzDeliLine, newCustomer){
 
 function nowServing(katzDeliLine){
   katzDeliLine.shift();
-  return "There is nobody waiting to served!"
+  return "There is nobody waiting to be served!"
 }
