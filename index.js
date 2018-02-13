@@ -5,6 +5,7 @@ function takeANumber(katzDeliLine, newCustomer){
     return `Welcome, ${newCustomer}. You are number ${katzDeliLine.length} in line.`
 }
 
-function nowServing(katzDeliLine, frontOfQueue){
-  
+function nowServing(katzDeliLine){
+  katzDeliLine.shift();
+  return "There is nobody waiting to served!"
 }
