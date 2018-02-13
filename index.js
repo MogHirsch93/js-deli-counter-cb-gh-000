@@ -22,9 +22,9 @@ function currentLine(katzDeliLine, customer){
   }
   for(let i = 0; i < katzDeliLine.length; i++){
     if(i===0){
-    currentLineString = currentLineString + `${i+1}. ${katzDeliLine[i]}`
+    currentLineString += `${i+1}. ${katzDeliLine[i]}`
   }else{
-    currentLineString = currentLineString + `, ${i+1}. ${katzDeliLine[i]}`
+    currentLineString += `, ${i+1}. ${katzDeliLine[i]}`
     }
   }
   return currentLineString;
